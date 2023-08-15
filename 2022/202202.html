@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap');
+
+        .detail {
+            display: flex;
+            flex-flow: wrap column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Noto Serif KR', serif;
+            font-size: 13pt;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 400px;
+            height: auto;
+        }
+
+        p {
+            padding: 3% 5%;
+            text-align: center;
+        }
+
+        .back {
+            background-color: white;
+            background-image: url(../resources/png/left-arrow.png);
+            width: 30px;
+            height: 30px;
+            background-size: cover;
+            border: none;
+            animation: fadeIn 1s;
+            margin-bottom: 100px;
+        }
+
+        .left-button {
+            align-self: flex-start;
+            margin-left: 3vw;
+        }
+
+        .when {
+            font-weight: bold;
+            color: rgb(118, 94, 172);
+        }
+
+        @media screen and (max-width: 600px) {
+            img {
+                width: 60%;
+            }
+
+            .detail {
+                font-size: 10pt;
+            }
+
+            p {
+                padding: 5% 10%;
+            }
+
+            .back {
+                width: 25px;
+                height: 25px;
+                margin-bottom: 50px;
+            }
+
+            .left-button {
+                margin-left: 3vw;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="detail">
+        <button class="back left-button"></button>
+        <p class="when">22.02.01</p>
+        <img src="../resources/img/220201.jpg">
+        <p>갑자기 심부름을 간다던 당신이 명절 음식과 함께 왔다.<br>
+            어머니가 싸준 음식을 먹으며 나와 새해를 맞아줬다.</p>
+
+        <p class="when">22.02.02</p>
+        <img src="../resources/img/220202.jpg">
+        <p>이마트에 가서 장을 잔뜩 보고 왔다.</p>
+
+        <img src="../resources/img/220202-1.jpg">
+        <p>차돌박이에 술을 잔뜩 마신 당신을 양치까지 시키고 재웠다🪥</p>
+
+        <p class="when">22.02.03</p>
+        <img src="../resources/img/220203.jpg">
+        <p>2월 5일에 올 거라고 생각했던 케이크가 일찍 왔다.<br>
+        당신이 주섬주섬 케이크를 꺼내는 날 보고 크게 웃었다.</p>
+
+        <p class="when">22.02.03</p>
+        <img src="../resources/img/220203-1.jpg">
+        <p>이런 케이크를 받아본 적 없다고 당신이 말해줘서 꽤 뿌듯했다.<br>
+        이 후 우리가 기념일에 먹는 케이크에는 글씨를 넣는 일이 많았다🍰</p>
+
+        <p class="when">22.02.04</p>
+        <img src="../resources/img/220204.jpg">
+        <p>말 들으란 말이 꽤 연상 같다고 느꼈다🫣</p>
+
+        <p class="when">22.02.05</p>
+        <img src="../resources/img/220205.jpg">
+        <p>이제야 하는 말이지만 다른 무엇보다도 이걸 완성하는데 시간이 많이 걸렸다.<br>
+        하나씩 다 오려 붙였기 때문이다.<br>
+        기념일마다 저 노트를 만들어 주려고 했지만 이제는 페이지를 만들 줄 안다😊</p>
+
+        <img src="../resources/img/220205-1.jpg">
+        <p>지금 당신은 나를 사랑하게 되었다.</p>
+
+        <p class="when">22.02.06</p>
+        <img src="../resources/img/220206.jpg">
+        <p>이제 사귄지 하루가 지난 우리는 바로 강릉 여행을 떠난다.<br>
+        오래 가야 할 걸 알기에 전날 시킨 허니콤보와 베이컨, 계란을 아침으로 먹고 떠났다.</p>
+
+        <img src="../resources/img/220206-1.jpg">
+        <p>당신이 내 손을 꽉 잡는 걸 이때도 좋아했다.</p>
+
+        <img src="../resources/img/220206-3.jpg">
+        <p>이 날 당신을 보며 파란색이 잘 어울린다고 생각했다.<br>그래서 설렜다.</p>
+
+        <img src="../resources/img/220206-2.jpg">
+        <p>꽁꽁 숨겨서 보여준 숙소는 바다가 참 예뻤다.</p>
+
+        <img src="../resources/img/220206-4.jpg">
+        <p>사진 찍는 게 참 어색한 사이었다.<br>당신은 자꾸 나보고 혼자 찍으라고 했다.<br>
+        지금 다시 간다면 우리 더 예쁘게 찍겠지?</p>
+
+        <img src="../resources/img/220206-5.jpg">
+        <p>별보러 가는 길에 어울리는 노래를 틀면서 갔다.<br>
+        차가 멈출까봐 걱정됐지만 그래도 난 재밌어 했을 것이다.</p>
+
+        <img src="../resources/img/220206-6.jpg">
+        <p>우리가 보려고 했던 곳보다도 내려오는 길에 별이 많았다.<br>
+        당신은 산 중턱에 차를 세워 사진을 찍으며 정말 좋아했다.</p>
+
+        <img src="../resources/img/220206-7.jpg">
+        <p>이 날은 정말 추웠다.<br>나는 괜히 롱패딩을 가져오지 않았다가 엄청 떨었고<br>
+        보다 못한 당신이 내 패딩을 대신 입어주었다.<br>
+        나는 미안한 마음에 머플러를 해주었는데 당신에게 정말 잘 어울렸다.</p>
+
+        <p class="when">22.02.07</p>
+        <img src="../resources/img/220207.jpg">
+        <p>처음으로 삼각대를 두고 사진을 찍은 날이었다.<br>
+            우리는 꽤 서툴렀다.<br>이 날 찍은 사진은 시골쥐들 같다.
+        </p>
+
+        <img src="../resources/img/220207-1.jpg">
+        <p>집에 돌아오니 다음 선물이 왔다.<br>1일 축하는 아직 진행 중이다.
+        </p>
+
+        <p class="when">22.02.08</p>
+        <img src="../resources/img/220208.jpg">
+        <p>일하는 날에도 당신은 나와 점심을 먹으로 먼 거리를 운전해왔다.<br>
+            서로 떨어져 있기가 싫었다.<br>나처럼 당신도 그랬나보다.
+        </p>
+
+        <p class="when">22.02.10</p>
+        <img src="../resources/img/220210.jpg">
+        <p>잠옷 바람으로 나를 회사까지 데려다주던 당신이 귀엽고 멋있었다.
+        </p>
+
+        <img src="../resources/img/220210-1.jpg">
+        <p>당신은 내게 진심으로 고맙다고 카톡으로도 말했다.<br>그런데 키링이 언제 왔을까?🤔
+        </p>
+
+        <p class="when">22.02.1</p>
+        <img src="../resources/img/220211.jpg">
+        <p>나 귀여운 스타일은 아닌데🙄
+        </p>
+
+        <p class="when">22.02.12</p>
+        <img src="../resources/img/220212.jpg">
+        <p>갑자기 놀러오라는 당신의 말에 김진또씨 집으로 향하는 택시를 잡았다.
+        </p>
+
+        <p class="when">22.02.13</p>
+        <img src="../resources/img/220213.jpg">
+        <p>발렌타인데이 겸 초콜릿펜을 샀다.<br>조금 노리는 게 있었지만 글씨가 귀여워 웃었다.
+        </p>
+        
+        <img src="../resources/img/220213-1.jpg">
+        <p>같이 부동산을 보러 나섰다.<br>분홍색 옷을 맞춰입어서 예뻐보였다.<br>
+            돌아오는 길에 차에서 키스를 하다 그만...
+        </p>
+
+        <p class="when">22.02.14</p>
+        <img src="../resources/img/220214.jpg">
+        <p>차돌숙주볶음은 너무 오래 볶으면 물이 생겨 싱거워진다.<br>
+            그래서 이것도 처음하며 간을 맞추기가 어려웠었다.<br>
+            하지만 당신은 맛있다며 잘 먹어주었다.
+        </p>
+
+        <p class="when">22.02.19</p>
+        <img src="../resources/img/220219.jpg">
+        <p>당신과 맞는 첫 이사였다.<br>나는 당신의 회사 근처로 이사를 결정했다.
+            <br>고된 일정에 텐션이 떨어져서 당신이 나를 계속 신경써줬다.<br>고마웠다.
+        </p>
+
+        <img src="../resources/img/220219-1.jpg">
+        <p>배고픈 나를 달래주려고 이삭토스트를 샀는데 결국 아주 늦게 먹었다.😂
+        </p>
+
+        <p class="when">22.02.20</p>
+        <img src="../resources/img/220220.jpg">
+        <p>박스를 하루에 하나씩 치우기로 했다.<br>
+            하지만 짐을 정리하기까지 꽤 오래걸렸다.<br>
+            그래도 거의 매일 당신을 보기에 이사오길 잘했다고 생각했다. 
+        </p>
+
+        <p class="when">22.02.21</p>
+        <img src="../resources/img/220221.jpg">
+        <p>이때 우리는 막걸리를 참 좋아했다.
+        </p>
+
+        <img src="../resources/img/220221-1.jpg">
+        <p>짜장면도 아주 좋아했다.<br>
+            맛집을 찾으려고 도장깨기를 하고 다녔다.
+        </p>
+
+        <p class="when">22.02.22</p>
+        <img src="../resources/img/220222.jpg">
+        <p>이 사진을 보면 당신은 따스한 봄날의 사람 같았다.
+        </p>
+
+        <p class="when">22.02.23</p>
+        <img src="../resources/img/220223.jpg">
+        <p>부부 같다.<br>이때도 그런 말을 자주 했었다.
+        </p>
+
+        <p class="when">22.02.25</p>
+        <img src="../resources/img/220225.jpg">
+        <p>당신이 문어 숙회를 먹고 싶다고 했다.<br>아직 테이블을 구해오지 않을 때였다.<br>
+            영등포 집처럼 바닥에 좁은 책상을 두고 밥을 먹었다.
+        </p>
+
+        <p class="when">22.02.26</p>
+        <img src="../resources/img/220226.jpg">
+        <p>이사 와서 처음 먹은 피자보감님...🙏
+        </p>
+
+        <p class="when">22.02.26</p>
+        <img src="../resources/img/220226-1.jpg">
+        <p>우리는 겁도 없이 고기를 구워먹었다.<br>
+            남은 버섯으로 하트를 만들었었다.
+        </p>
+
+        <p class="when">22.02.26</p>
+        <img src="../resources/img/220226-2.jpg">
+        <p>곰옷이 왔다. <br>진짜 둘 다 곰돌이 같았다🐻
+        </p>
+
+        <p class="when">22.02.27</p>
+        <img src="../resources/img/220227.jpg">
+        <p>또 다시 피자보감님을 먹었다.<br>
+        내가 스파게티를 좋아해서 당신이 콘치즈를 양보해줬다.<br>고마웠다.
+        <br>우리가 앞으로 쿠폰을 10개나 모으게 되리라고는 둘 다 생각 못했을 것이다.
+        </p>
+
+        <button class="back"></button>
+    </div>
+    <script src="../js/back.js"></script>
+</body>
+
+</html>

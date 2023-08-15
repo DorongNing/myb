@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap');
+
+        .detail {
+            display: flex;
+            flex-flow: wrap column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Noto Serif KR', serif;
+            font-size: 13pt;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 400px;
+            height: auto;
+        }
+
+        p {
+            padding: 3% 5%;
+            text-align: center;
+        }
+
+        .back {
+            background-color: white;
+            background-image: url(../resources/png/left-arrow.png);
+            width: 30px;
+            height: 30px;
+            background-size: cover;
+            border: none;
+            animation: fadeIn 1s;
+            margin-bottom: 100px;
+        }
+
+        .left-button {
+            align-self: flex-start;
+            margin-left: 3vw;
+            height: max-content;
+            margin-bottom: 10px;
+        }
+
+        .when {
+            font-weight: bold;
+            color: rgb(118, 94, 172);
+        }
+
+
+        @media screen and (max-width: 600px) {
+            img {
+                width: 60%;
+            }
+
+            .detail {
+                font-size: 10pt;
+            }
+
+            p {
+                padding: 5% 10%;
+            }
+
+            .back {
+                width: 20px;
+                height: 20px;
+                margin-bottom: 50px;
+            }
+
+            .left-button {
+                margin-left: 3vw;
+                margin-bottom: 10px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="detail">
+        <button class="back left-button"></button>
+        <p class="when">21.12.25</p>
+        <img src="../resources/img/211225.jpg">
+        <p>이때는 누구도 크리스마스라고 들떠있지 않았다.<br>
+            우리는 다가올 날이 얼마나 행복할지 모른채 덤덤했다.</p>
+
+        <p class="when">21.12.27</p>
+        <img src="../resources/img/211227.png">
+        <p>우리가 처음으로 카톡을 하던 날 당신은 바다에 놀러갔었다🌊</p>
+        <button class="back"></button>
+    </div>
+    <script src="../js/back.js"></script>
+</body>
+
+</html>

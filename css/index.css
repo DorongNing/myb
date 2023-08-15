@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap');
+
+.box {
+    display: flex;
+    flex-flow: column;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    height: auto;
+    font-family: 'Noto Serif KR', serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.year {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.year>a>p {
+    justify-self: center;
+    align-self: center;
+    animation: fadeIn 1s;
+}
+
+.gif {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+
+.gif > img {
+    width: 30vw;
+    height: auto;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gif > img {
+        width: 40%;
+    }
+}
