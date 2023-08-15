@@ -243,6 +243,60 @@
 }
 
 
+#month6 {
+    display: grid;
+    grid-template-areas: 
+    "m6-img1 m6-img2 m6-img3"
+    "m6-img5 m6-img2 m6-img4";
+    height: 400px;
+    width: 80vw;
+    padding: 5px;
+}
+
+#month6 > div {
+    margin: 5px;
+    border: solid 1px #ccc;
+}
+
+#m6-img1{
+    grid-area: m6-img1;
+    background-image: url(../resources/img/img2206/220605-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#m6-img2{
+    grid-area: m6-img2;
+    background-image: url(../resources/img/img2206/220609-1.png);
+    background-size: cover;
+    /* background-position: right calc(50% - 10%); */
+    background-position: top;
+}
+
+#m6-img3{
+    grid-area: m6-img3;
+    background-image: url(../resources/img/img2206/220625-2.png);
+    background-size: cover;
+    background-position: center calc(50% + 5%);
+}
+
+#m6-img4{
+    grid-area: m6-img4;
+    background-image: url(../resources/img/img2206/220619-2.png);
+    background-size: cover;
+    background-position: center calc(50% + 5%);
+}
+
+#m6-img5{
+    grid-area: m6-img5;
+    background-image: url(../resources/img/img2206/220615.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
 
 .back {
     background-color: white;
