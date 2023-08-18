@@ -3,6 +3,7 @@
 .box {
     display: flex;
     flex-flow: column;
+    font-family: 'Noto Serif KR', serif;
 }
 
 .container {
@@ -28,18 +29,27 @@ a {
 .year>a>p {
     justify-self: center;
     align-self: center;
-    animation: fadeIn 1s;
+    animation: fadeIn 5s;
 }
 
 .gif {
     display: flex;
     flex-flow: wrap row;
     justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    height: 100vh;
 }
 
 .gif > img {
-    width: 30vw;
+    width: 25vw;
     height: auto;
+    margin: 0.5em;
+    animation: fadeIn 3s;
+}
+
+#update {
+    animation: fadeIn 1s;
 }
 
 
@@ -50,11 +60,5 @@ a {
 
     to {
         opacity: 1;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .gif > img {
-        width: 40%;
     }
 }

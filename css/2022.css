@@ -296,6 +296,95 @@
 
 
 
+#month7 {
+    display: grid;
+    grid-template-areas: 
+    "m7-img1 m7-img2 m7-img3"
+    "m7-img1 m7-img2 m7-img4";
+    height: 400px;
+    width: 80vw;
+    padding: 5px;
+}
+
+#month7 > div {
+    margin: 5px;
+    border: solid 1px #ccc;
+}
+
+#m7-img1{
+    grid-area: m7-img1;
+    background-image: url(../resources/img/img2207/220715-6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#m7-img2{
+    grid-area: m7-img2;
+    background-image: url(../resources/img/img2207/220708-1.png);
+    background-size: cover;
+    /* background-position: right calc(50% - 10%); */
+    background-position: top;
+}
+
+#m7-img3{
+    grid-area: m7-img3;
+    background-image: url(../resources/img/img2207/220711.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#m7-img4{
+    grid-area: m7-img4;
+    background-image: url(../resources/img/img2207/220717-4.png);
+    background-size: cover;
+    background-position: center calc(50% + 10%);
+}
+
+
+#month8 {
+    display: grid;
+    grid-template-areas: 
+    "m8-img1 m8-img2 m8-img3"
+    "m8-img4 m8-img2 m8-img3";
+    height: 400px;
+    width: 80vw;
+    padding: 5px;
+}
+
+#month8 > div {
+    margin: 5px;
+    border: solid 1px #ccc;
+}
+
+#m8-img1{
+    grid-area: m8-img1;
+    background-image: url(../resources/img/img2208/220810.png);
+    background-size: cover;
+    background-position: center calc(50% - 10%);
+}
+
+#m8-img2{
+    grid-area: m8-img2;
+    background-image: url(../resources/img/img2208/220820-3.png);
+    background-size: cover;
+    /* background-position: right calc(50% - 10%); */
+    background-position: top;
+}
+
+#m8-img3{
+    grid-area: m8-img3;
+    background-image: url(../resources/img/img2208/220819-3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#m8-img4{
+    grid-area: m8-img4;
+    background-image: url(../resources/img/img2208/220817-3.png);
+    background-size: cover;
+    background-position: center calc(50% + 10%);
+}
+
 
 
 .back {
@@ -369,7 +458,7 @@
         padding: 0;
       }
     
-      #month1, #month2, #month3, #month4, #month5 {
+      #month1, #month2, #month3, #month4, #month5, #month6, #month7, #month8 {
         width: 400px;
         height: 150px;
         padding: 2px;
@@ -387,8 +476,7 @@
         height: 25px;
     }
 
-    #month1 > div, #month2 > div, #month3 > div, #month4 > div, #month5 > div {
+    #month1 > div, #month2 > div, #month3 > div, #month4 > div, #month5 > div, #month6 > div, #month7 > div, #month8 > div {
         margin: 2px;
     }
-
 }
